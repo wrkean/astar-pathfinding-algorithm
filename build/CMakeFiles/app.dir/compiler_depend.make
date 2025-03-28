@@ -3,6 +3,7 @@
 
 CMakeFiles/app.dir/main.cpp.o: /data/data/com.termux/files/home/Dev/Cpp/Maze/main.cpp \
   /data/data/com.termux/files/usr/include/SDL2/SDL.h \
+  /data/data/com.termux/files/usr/include/SDL2/SDL2_gfxPrimitives.h \
   /data/data/com.termux/files/usr/include/SDL2/SDL_assert.h \
   /data/data/com.termux/files/usr/include/SDL2/SDL_atomic.h \
   /data/data/com.termux/files/usr/include/SDL2/SDL_audio.h \
@@ -951,6 +952,7 @@ app: /data/data/com.termux/files/usr/lib/clang/19/lib/linux/libclang_rt.builtins
   /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
   /data/data/com.termux/files/usr/lib/crtend_android.o \
   /data/data/com.termux/files/usr/lib/libSDL2.so \
+  /data/data/com.termux/files/usr/lib/libSDL2_gfx.so \
   /data/data/com.termux/files/usr/lib/libc++_shared.so \
   /data/data/com.termux/files/usr/lib/libunwind.a \
   /system/lib64/libc.so \
@@ -968,6 +970,8 @@ CMakeFiles/app.dir/main.cpp.o:
 /system/lib64/libc.so:
 
 /data/data/com.termux/files/usr/lib/libunwind.a:
+
+/data/data/com.termux/files/usr/lib/libSDL2_gfx.so:
 
 /data/data/com.termux/files/usr/lib/crtend_android.o:
 
@@ -1160,6 +1164,8 @@ CMakeFiles/app.dir/main.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__utility/empty.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__utility/declval.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__utility/cmp.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__utility/as_const.h:
 
@@ -1597,6 +1603,8 @@ CMakeFiles/app.dir/main.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_object.h:
 
+/data/data/com.termux/files/usr/include/SDL2/SDL2_gfxPrimitives.h:
+
 /data/data/com.termux/files/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__math/hypot.h:
@@ -1604,8 +1612,6 @@ CMakeFiles/app.dir/main.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__math/fdim.h:
-
-/data/data/com.termux/files/usr/include/c++/v1/__utility/cmp.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__math/error_functions.h:
 
@@ -1866,6 +1872,8 @@ CMakeFiles/app.dir/main.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__config_site:
+
+/data/data/com.termux/files/usr/include/c++/v1/__config:
 
 /data/data/com.termux/files/usr/include/c++/v1/__concepts/swappable.h:
 
@@ -2705,8 +2713,6 @@ CMakeFiles/app.dir/main.cpp.o:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/make_heap.h:
 
-/data/data/com.termux/files/usr/include/c++/v1/__config:
-
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/equal.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
@@ -2851,8 +2857,6 @@ CMakeFiles/app.dir/main.cpp.o:
 
 /data/data/com.termux/files/usr/include/android/versioning.h:
 
-/data/data/com.termux/files/usr/include/SDL2/SDL_endian.h:
-
 /data/data/com.termux/files/usr/include/SDL2/SDL_surface.h:
 
 /data/data/com.termux/files/usr/include/SDL2/SDL_filesystem.h:
@@ -2860,6 +2864,8 @@ CMakeFiles/app.dir/main.cpp.o:
 /data/data/com.termux/files/usr/include/c++/v1/__fwd/hash.h:
 
 /data/data/com.termux/files/usr/include/SDL2/SDL_events.h:
+
+/data/data/com.termux/files/usr/include/SDL2/SDL_endian.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
 

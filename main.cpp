@@ -2,6 +2,7 @@
 #include <SDL2/SDL_events.h>
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
+#include <SDL2/SDL2_gfxPrimitives.h>
 #include <array>
 #include <random>
 #include <vector>
@@ -16,7 +17,7 @@
 
 const int WIDTH = 2400;
 const int HEIGHT = 1000;
-const int CELL_SIZE = 100;            // Better if CELL_SIZE is a common factor of the WIDTH and the HEIGHT
+const int CELL_SIZE = 10;            // Better if CELL_SIZE is a common factor of the WIDTH and the HEIGHT
 constexpr int COLS = WIDTH / CELL_SIZE;
 constexpr int ROWS = HEIGHT / CELL_SIZE;
 
@@ -187,7 +188,7 @@ void draw_path(SDL_Renderer* renderer, const std::vector<std::pair<int, int>>& p
         int y1 = path[i - 1].second * CELL_SIZE + CELL_SIZE / 2;
         int x2 = path[i].first * CELL_SIZE + CELL_SIZE / 2;
         int y2 = path[i].second * CELL_SIZE + CELL_SIZE / 2;
-        SDL_RenderDrawLine(renderer, x1, y1, x2, y2);
+        thickLineRGBA(renderer, x1, y1, x2, y2, CELL_SIZE / 2, 255, 0, 255, 255);
         SDL_RenderPresent(renderer);
     }
 }
@@ -204,6 +205,7 @@ int main() {
 
     std::vector<std::pair<int, int>> path = a_star(maze, renderer);
     draw_path(renderer, path, maze);
+    maze.draw(renderer);
 
     SDL_Delay(5000);
     SDL_DestroyRenderer(renderer);
