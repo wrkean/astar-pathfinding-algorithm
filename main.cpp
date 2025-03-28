@@ -14,9 +14,9 @@
 #define WEST 2
 #define EAST 3
 
-const int WIDTH = 1280;
-const int HEIGHT = 720;
-const int CELL_SIZE = 5;
+const int WIDTH = 2400;
+const int HEIGHT = 1000;
+const int CELL_SIZE = 100;            // Better if CELL_SIZE is a common factor of the WIDTH and the HEIGHT
 constexpr int COLS = WIDTH / CELL_SIZE;
 constexpr int ROWS = HEIGHT / CELL_SIZE;
 
