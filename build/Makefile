@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/Dev/Cpp/Maze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/Dev/Cpp/Maze
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/Dev/Cpp/Maze/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Dev/Cpp/Maze/CMakeFiles /data/data/com.termux/files/home/Dev/Cpp/Maze//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Dev/Cpp/Maze/build/CMakeFiles /data/data/com.termux/files/home/Dev/Cpp/Maze/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Dev/Cpp/Maze/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Dev/Cpp/Maze/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

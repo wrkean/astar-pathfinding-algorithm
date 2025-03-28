@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/data/data/com.termux/files/home/Dev/Cpp/Maze/install_local_manifest.txt"
+  file(WRITE "/data/data/com.termux/files/home/Dev/Cpp/Maze/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/data/data/com.termux/files/home/Dev/Cpp/Maze/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/data/data/com.termux/files/home/Dev/Cpp/Maze/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

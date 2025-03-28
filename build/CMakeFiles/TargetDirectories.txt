@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/Dev/Cpp/Maze/build/CMakeFiles/app.dir
+/data/data/com.termux/files/home/Dev/Cpp/Maze/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/Dev/Cpp/Maze/build/CMakeFiles/rebuild_cache.dir
